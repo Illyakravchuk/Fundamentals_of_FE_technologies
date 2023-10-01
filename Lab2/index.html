@@ -6,6 +6,7 @@
     <meta name="keywords" content="Front-end, студент, таблиці">
     <meta name="description" content="Вебсторінка для 2 лабораторної роботи">
     <title>Кравчук І.В. ІМ-13, лабораторна робота 2, варіант 3</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
         table {
             border-collapse: collapse;
@@ -16,20 +17,37 @@
         th, td {
             border: 2px solid black;
             font: 14px Verdana, sans-serif;
-            vertical-align: top;
+            vertical-align: middle;
             padding: 5px;
+        }
+
+        tr:nth-child(1) {
+            background-color: #038f8f;
+        }
+
+        
+        tr:nth-child(1):hover {
+            background-color: #f5f503;
+        }
+
+        tr:nth-child(2) {
+            background-color: #f5f503;
+        }
+
+        tr:nth-child(2):hover {
+            background-color: #038f8f;
         }
     </style>
 </head>
 <body>
-    <table border="3">
+    <table>
         <tr>
             <td colspan="1" rowspan="2">Кравчук</td>
-            <td colspan="1">Ілля</td>
+            <td colspan="1">Ілля</td>        
             <td colspan="2" rowspan="2"></td>
         </tr>
         <tr>
-            <td colspan="2">Володимирович</td>
+            <td colspan="1" rowspan="1">Володимирович</td>
         </tr>
         <tr>
             <td colspan="1">ІМ-13</td>
@@ -43,5 +61,15 @@
             <td colspan="2">1</td>
         </tr>
     </table>
+    <div class="square-container">
+        <div class="square1"></div>
+        <div class="square2"></div>
+        <div class="square3"></div>
+      </div>
+      <div class="square-container">
+        <div class="square4"></div>
+        <div class="square5"></div>
+        <div class="square6"></div>
+      </div>
 </body>
 </html>

@@ -1,0 +1,64 @@
+.square-group {
+    display: flex; 
+  }
+    .square1 {
+    transform: rotate(45deg);
+    position: relative;
+    top: 20px; left: 50px;
+    width: 60px; 
+    height: 60px;
+    background-color: #a8b7da; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
+  .square2 {
+    transform: rotate(10deg);
+    position: relative;
+    top: 23px; left: 12px;
+    width: 60px; 
+    height: 60px;
+    background-color: #dad724; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
+  .square3 {
+    transform: rotate(80deg);
+    position: relative;
+    top: -39px; left: 88px;
+    width: 60px; 
+    height: 60px;
+    background-color: #b03c6e; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
+
+  .square4 {
+    transform: rotate(45deg);
+    position: relative;
+    top: -165px; left: 250px;
+    width: 60px; 
+    height: 60px;
+    background-color: #a8b7da; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
+  .square5 {
+    transform: rotate(10deg);
+    position: relative;
+    top: -162px; left: 212px;
+    width: 60px; 
+    height: 60px;
+    background-color: #dad724; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
+  .square6 {
+    transform: rotate(80deg);
+    position: relative;
+    top: -224px; left: 289px;
+    width: 60px; 
+    height: 60px;
+    background-color: #b03c6e; 
+    border-radius: 10px; 
+    border: 1px solid #000
+  }
