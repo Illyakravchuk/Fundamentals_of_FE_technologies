@@ -1,7 +1,10 @@
-.square-group {
-    display: flex; 
-  }
-    .square1 {
+.figure-container {
+  position: relative;
+  width: 150px; 
+  height: 150px;
+}
+
+.figure-container  .square1 {
     transform: rotate(45deg);
     position: relative;
     top: 20px; left: 50px;
@@ -11,7 +14,7 @@
     border-radius: 10px; 
     border: 1px solid #000
   }
-  .square2 {
+  .figure-container  .square2 {
     transform: rotate(10deg);
     position: relative;
     top: 23px; left: 12px;
@@ -21,7 +24,7 @@
     border-radius: 10px; 
     border: 1px solid #000
   }
-  .square3 {
+  .figure-container  .square3 {
     transform: rotate(80deg);
     position: relative;
     top: -39px; left: 88px;
@@ -32,30 +35,37 @@
     border: 1px solid #000
   }
 
-  .square4 {
+
+  .figure-container2 {
+    position: relative;
+    width: 150px; 
+    height: 150px;
+    transform: translateX(200px) translateY(-150px);
+  }
+  .figure-container2  .square1 {
     transform: rotate(45deg);
     position: relative;
-    top: -165px; left: 250px;
+    top: 20px; left: 50px;
     width: 60px; 
     height: 60px;
     background-color: #a8b7da; 
     border-radius: 10px; 
     border: 1px solid #000
   }
-  .square5 {
+  .figure-container2  .square2 {
     transform: rotate(10deg);
     position: relative;
-    top: -162px; left: 212px;
+    top: 23px; left: 12px;
     width: 60px; 
     height: 60px;
     background-color: #dad724; 
     border-radius: 10px; 
     border: 1px solid #000
   }
-  .square6 {
+  .figure-container2  .square3 {
     transform: rotate(80deg);
     position: relative;
-    top: -224px; left: 289px;
+    top: -39px; left: 88px;
     width: 60px; 
     height: 60px;
     background-color: #b03c6e; 
