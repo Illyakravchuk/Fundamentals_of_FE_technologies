@@ -1,5 +1,7 @@
 .figure-container,
 .figure-container-transform {
+  display: inline-block;
+  margin: 10px;
   position: relative;
   width: 150px;
   height: 150px;
@@ -34,6 +36,4 @@
   background-color: #b03c6e;
 }
 
-.figure-container-transform {
-  transform: translateX(200px) translateY(-150px);
-}
+
