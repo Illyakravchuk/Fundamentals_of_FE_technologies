@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  font-size: 22px;
+}
+
+.container-form {
+  font-family: Tahoma;
+  width: 480px;
+}
+
+.titleForm{
+  font-size: 45px;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+input {
+  font-size: 22px;
+  font-family: Tahoma;
+  box-sizing: border-box;
+  width: 100%;
+  height: 55px;
+  padding: 4px;
+  margin-top: 19px;
+  border: 3px solid rgb(17, 114, 63);
+}
+
+.hint {
+  color: rgb(200, 6, 6);
+  display: none;
+}
+
+.hint.error {
+  display: inline;
+}
