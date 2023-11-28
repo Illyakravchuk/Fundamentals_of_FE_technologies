@@ -1,4 +1,4 @@
-const container = document.querySelector('.сontainer-user');
+const container = document.querySelector('.container-user');
 const updateUserButton = document.querySelector('.updateUser');
 
 updateUserButton.addEventListener('click', fetchUserData);
